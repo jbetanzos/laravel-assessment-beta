@@ -12,6 +12,7 @@ elixir(function(mix) {
     mix
       .styles(["vendor/**/*.css"], "public/css/vendor.css")
       .styles(["custom/**/*.css"], "public/css/custom.css")
+      .styles(["custom/**/*.css"], "public/css/dashboard.css")
       .scripts([
           "vendor/jquery/jquery.js",
           "vendor/jquery-ui/jquery-ui.js",

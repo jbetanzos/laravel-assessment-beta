@@ -10,3 +10,4 @@ Vagrantfile
 public/css/*
 public/js/*
 public/build/*
+.idea/

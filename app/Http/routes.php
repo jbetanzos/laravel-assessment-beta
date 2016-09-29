@@ -13,3 +13,11 @@
 
 Route::get('/', 'MainController@index');
 Route::get('/instructions', 'MainController@instructions');
+
+Route::auth();
+Route::get('/home', 'HomeController@index');
+
+
+Route::get('/dash', 'ServicesController@index');
+
+Route::resource('categories', 'CategoryController');
